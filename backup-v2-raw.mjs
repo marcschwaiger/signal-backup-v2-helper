@@ -30,12 +30,12 @@ const FRAME_KIND = new Map([
 
 function usage() {
   console.error(`Usage:
-  node tools/backup-v2/backup-v2-raw.mjs summary <snapshotDir> <passphraseFile>
-  node tools/backup-v2/backup-v2-raw.mjs check-files <snapshotDir>
-  node tools/backup-v2/backup-v2-raw.mjs check-refs <snapshotDir> <passphraseFile>
-  node tools/backup-v2/backup-v2-raw.mjs check-media-refs <snapshotDir> <passphraseFile>
-  node tools/backup-v2/backup-v2-raw.mjs official-validate <snapshotDir> <passphraseFile> [nativeLibsignalNodePath]
-  node tools/backup-v2/backup-v2-raw.mjs merge <oldSnapshotDir> <oldPassphraseFile> <newSnapshotDir> <newPassphraseFile> <outBaseDir>`);
+  node backup-v2-raw.mjs summary <snapshotDir> <passphraseFile>
+  node backup-v2-raw.mjs check-files <snapshotDir>
+  node backup-v2-raw.mjs check-refs <snapshotDir> <passphraseFile>
+  node backup-v2-raw.mjs check-media-refs <snapshotDir> <passphraseFile>
+  node backup-v2-raw.mjs official-validate <snapshotDir> <passphraseFile> [nativeLibsignalNodePath]
+  node backup-v2-raw.mjs merge <oldSnapshotDir> <oldPassphraseFile> <newSnapshotDir> <newPassphraseFile> <outBaseDir>`);
   process.exit(2);
 }
 
